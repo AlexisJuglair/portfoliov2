@@ -1,0 +1,593 @@
+.cv-wrapper
+{
+  background-color: white;
+  box-shadow: 0px 0px 30px #00000029;
+  border-radius: 20px;
+  padding: 80px;
+}
+
+/* HEADER */
+
+.cv-header
+{
+  display: flex;
+  /* gap: 40px; */
+  margin-bottom: 30px;  
+}
+
+.cv-photo
+{
+  flex: 0 0 20%;
+}
+
+.cv-photo img
+{
+  width: 100%;
+  /* height: 100%; */
+}
+
+.cv-intro
+{
+  flex: 0 0 80%;
+  padding-left: 40px;
+}
+
+.cv-titre-contact
+{
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.cv-titre
+{
+  flex: 0 0 70%;
+}
+
+.cv-titre h2
+{
+  color: #333333;
+  font-size: 55px;
+  text-align: left;
+  font-family: 'Tusker Grotesk', sans-serif;
+  margin-bottom: 20px !important;
+  font-weight: normal;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.cv-titre p
+{
+  color: #9ED8C5;
+  font-size: 30px;
+  text-align: left;
+  font-family: 'Lora', sans-serif;
+  font-weight: bold;
+}
+
+.cv-contact
+{
+  flex: 0 0 30%;
+  text-align: right;
+}
+
+.cv-contact p
+{
+  color: #707070;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.cv-contact p:first-child
+{
+  color: #333333;
+  font-size: 31px;
+}
+
+.cv-contact-ville
+{
+  padding-bottom: 20px;
+}
+
+.cv-contact a
+{
+  color: #9ED8C5;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.cv-resume
+{
+  padding-right: 30x;
+}
+
+.cv-resume p
+{
+  text-align: justify;
+}
+
+/* EXPERIENCES */
+
+.cv-body
+{
+  display: flex;
+  margin-top: 30px;
+}
+
+.cv-experiences
+{
+  flex: 0 0 65%;
+  padding-right: 50px;
+  border-right: 2px solid rgba(0,0,0,0.08);
+}
+
+.cv-experiences a
+{
+  text-decoration: none;
+}
+
+.cv-experience
+{
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.cv-experiences h3
+{
+  color: #333333;
+  font-size: 24px;
+  text-align: left;
+  font-family: 'Tusker Grotesk', sans-serif;
+  margin-bottom: 50px;
+  font-weight: normal;
+}
+
+.cv-experience-logo
+{
+  flex: 0 0 15%;
+}
+
+.cv-experience-logo img
+{
+  width: 75px;
+}
+
+.cv-experience-body
+{
+  flex: 0 0 85%;
+}
+
+.cv-experience-body h4
+{
+  font-family: 'Tusker Grotesk 6500', sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.cv-experience-body p:nth-child(2)
+{
+  font-size: 18px;
+  color: #46997E;
+  font-weight: bold;
+  font-family: 'Lora', sans-serif;
+  margin-bottom: 10px;
+}
+
+.cv-experience-body p:nth-child(3)
+{
+  font-size: 14px;
+  color: #707070;
+  font-family: 'Lora', sans-serif;
+  text-align: justify;
+}
+
+/* COMPETENCES/FORMATIONS/HOBBIES */
+
+.cv-body-aside
+{
+  flex: 0 0 40%;
+  padding-left: 50px;
+  padding-right: 40px;
+}
+
+.cv-competences
+{
+  margin-bottom: 40px;
+}
+
+.cv-competences h3
+{
+  color: #333333;
+  font-size: 24px;
+  text-align: left;
+  font-family: 'Tusker Grotesk', sans-serif;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+
+.cv-techno 
+{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.cv-techno img
+{
+  width: 40px;
+}
+
+.cv-competences h4
+{
+  color: #333333;
+  text-align: center;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: 'Tusker Grotesk 6500', sans-serif;
+  margin-bottom: 15px;
+}
+
+.cv-competences p
+{
+  color: #46997E;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Lora', sans-serif;
+  font-weight: bold;
+}
+
+.cv-competences span
+{
+  color: #333333;
+}
+
+.cv-formations
+{
+  margin-bottom: 40px;
+}
+
+.cv-formations a
+{
+  text-decoration: none;
+}
+
+
+.cv-formations h3
+{
+  color: #333333;
+  font-size: 24px;
+  text-align: left;
+  font-family: 'Tusker Grotesk', sans-serif;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+
+.cv-formation
+{
+  margin-bottom: 30px;
+}
+
+.cv-formation-logo-lieu
+{
+  display: flex;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
+.cv-formation-logo
+{
+  flex: 0 0 20%;
+}
+
+.cv-formation-logo img
+{
+  width: 75px;
+}
+
+.cv-formation-lieu
+{
+  flex: 0 0 80%;
+}
+
+.cv-formation-lieu p:nth-child(1)
+{
+  color: #707070;
+  font-size: 21px;
+  text-align: left;
+  font-family: 'Tusker Grotesk 6500', sans-serif; 
+}
+
+.cv-formation-lieu p:nth-child(2)
+{
+  color: #BBBBBB;
+  font-size: 16px;
+  text-align: left;
+  font-family: 'Tusker Grotesk 6500', sans-serif; 
+}
+
+.cv-formation > p:nth-child(2)
+{
+  font-family: 'Lora', sans-serif; 
+  font-weight: bold;
+  color: #46997E;
+  text-align: left;
+  font-size: 18px;
+}
+
+.cv-formation > :nth-child(3)
+{
+  font-family: 'Lora', sans-serif; 
+  color: #707070;
+  text-align: left;
+  font-size: 18px;
+}
+
+.cv-langues
+{
+  margin-bottom: 40px;
+}
+
+.cv-langues h3
+{
+  color: #333333;
+  font-size: 24px;
+  text-align: left;
+  font-family: 'Tusker Grotesk', sans-serif;
+  font-weight: normal;
+  display: inline;
+  margin-right: 30px;
+}
+
+.cv-langues img
+{
+  width: 30px;
+  height: 22px;
+  margin-right: 20px;
+}
+
+.cv-hobbies h3
+{
+  color: #333333;
+  font-size: 24px;
+  text-align: left;
+  font-family: 'Tusker Grotesk', sans-serif;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.cv-hobbies p
+{
+  color: #707070;
+  font-size: 16px;
+  text-align: left;
+  font-family: 'Lora', sans-serif;
+}
+
+.cv-hobbies i
+{
+  color: #9ED8C5;
+}
+
+@media (max-width: 991px)
+{
+  .cv-header
+  {
+    flex-direction: column; 
+  }
+
+  .cv-photo
+  {
+    width: 100%; 
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .cv-photo img
+  {
+    width: 50%; 
+  }
+
+  .cv-intro
+  {
+    margin-bottom: 30px;
+    padding-left: 0;
+  }
+
+  .cv-titre-contact
+  {
+    flex-direction: column;
+  }
+
+  .cv-titre h2
+  {
+    text-align: center;
+  }
+
+  .cv-titre p
+  {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .cv-contact
+  {
+    text-align: center;
+  }
+
+  /* EXPERIENCES */
+
+  .cv-body
+  {
+    flex-direction: column;
+  }
+
+  .cv-experiences
+  {
+    padding-right: 0;
+    border-right: none;
+  }
+
+  .cv-experiences,
+  .cv-competences,
+  .cv-formations,
+  .cv-langues
+  {
+    margin-bottom: 80px;
+  }
+
+  .cv-experience:last-child
+  {
+    margin-bottom: 0;
+  }
+
+  .cv-experience-logo
+  {
+    margin-right: 10px;
+  }
+
+  .cv-experience-body h4,
+  .cv-experience-body p:nth-child(2),
+  .cv-experience-body p:nth-child(3)
+  {
+    padding-right: 30px;
+  }
+
+  .cv-experiences h3,
+  .cv-competences h3,
+  .cv-formations h3,
+  .cv-langues h3,
+  .cv-hobbies h3
+  {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .cv-langues
+  {
+    text-align: center;
+  }
+
+  .cv-hobbies p
+  {
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px)
+{
+  .cv-wrapper
+  {
+    padding: 40px;
+  }
+
+  /* HEADER */
+
+  .cv-header
+  {
+    flex-direction: column; 
+  }
+
+  .cv-photo
+  {
+    width: 100%; 
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .cv-photo img
+  {
+    width: 50%; 
+  }
+
+  .cv-intro
+  {
+    margin-bottom: 30px;
+    padding-left: 0;
+  }
+
+  .cv-titre-contact
+  {
+    flex-direction: column;
+  }
+
+  .cv-titre h2
+  {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .cv-titre p
+  {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .cv-contact
+  {
+    text-align: center;
+  }
+
+  /* EXPERIENCES */
+
+  .cv-body
+  {
+    flex-direction: column;
+    margin-top: 60px;
+  }
+
+  .cv-experiences
+  {
+    padding-right: 0;
+    border-right: none;
+  }
+
+  .cv-experiences,
+  .cv-competences,
+  .cv-formations,
+  .cv-langues
+  {
+    margin-bottom: 80px;
+  }
+
+  .cv-experience:last-child
+  {
+    margin-bottom: 0;
+  }
+
+  .cv-experience-logo
+  {
+    margin-right: 10px;
+  }
+
+  .cv-experience-body h4,
+  .cv-experience-body p:nth-child(2),
+  .cv-experience-body p:nth-child(3)
+  {
+    padding-right: 30px;
+  }
+
+  .cv-experiences h3,
+  .cv-competences h3,
+  .cv-formations h3,
+  .cv-langues h3,
+  .cv-hobbies h3
+  {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .cv-langues
+  {
+    text-align: center;
+  }
+
+  .cv-hobbies p
+  {
+    text-align: center;
+  }
+}

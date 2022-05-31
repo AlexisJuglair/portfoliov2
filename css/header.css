@@ -1,0 +1,182 @@
+.header
+{
+  text-align: center;
+  height: 100vh;
+  /* width: 100vw; */
+  vertical-align: middle;
+  padding: calc(50vh - 500px / 2) 0;
+  background-size: cover;
+  color: white;
+  margin: 0 auto;
+  background: center center;
+  background-image: url("../images/background.png");
+}
+
+.header *
+{
+  transition: all .25s;
+}
+
+.header h1
+{
+  font-size: 50px;
+  font-family: 'Tusker Grotesk', sans-serif;
+  margin-bottom: 15px;
+  letter-spacing: 3px;
+  font-weight: normal;
+}
+
+.header h2
+{
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+.header-contact
+{
+  margin-bottom: 40px;
+}
+
+.header-contact a
+{
+  margin: 0 20px;
+}
+
+.header a
+{
+  text-decoration: none;
+  color: white;
+}
+
+.menu
+{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  gap: 200px;
+}
+
+.menu .menu-ligne 
+{
+  padding: 10px;
+  box-shadow: 0px 0px 20px #00000029;
+  border-radius: 42px;
+  background-color: #3A7F69;
+  font-family: 'Reem Kufi', sans-serif;
+  width: 200px;
+  height: 50px;
+  vertical-align: middle;
+  line-height: 30px;
+}
+
+.menu .menu-ligne:first-child
+{
+  background-color: white;
+  color: #3A7F69;
+}
+
+.menu .menu-ligne:first-child:hover
+{
+  background-color: #3A7F69;
+}
+
+.menu .menu-ligne:first-child a
+{
+  color: #3A7F69;
+}
+
+.menu .menu-ligne:first-child:hover a
+{
+  color: white;
+}
+
+.menu .menu-ligne:nth-child(2) i
+{
+  float: right;
+  line-height: 33px;
+  vertical-align: middle;
+}
+
+.menu .menu-ligne:last-child:hover
+{
+  background-color: white;
+}
+
+.menu .menu-ligne:last-child:hover a
+{
+  color: #3A7F69;
+}
+
+.fa-caret-down
+{
+  cursor: pointer;
+}
+
+
+.menu .menu-ligne .sous-menu
+{
+  display: none;
+  position: absolute;
+  background-color: #3A7F69;
+  text-align: left;
+  margin-top: 10px;
+  margin-left: -9px;
+  padding: 5px 0;
+  box-shadow: 0 3px 20px -5px black;
+  z-index: 1;
+  list-style-type: none;
+}
+
+.menu .menu-ligne:hover .sous-menu
+{
+  display: flex;
+}
+
+.menu .menu-ligne .sous-menu .sous-menu-ligne
+{
+  padding: 5px 10px
+}
+
+.menu .menu-ligne .sous-menu .sous-menu-ligne:hover
+{
+  color: #3A7F69;
+  background-color: white;
+}
+
+.menu .menu-ligne .sous-menu .sous-menu-ligne:hover
+{
+  color: #3A7F69;
+  background-color: white;
+}
+
+.menu .menu-ligne .sous-menu .sous-menu-ligne:hover a
+{
+  color: #3A7F69;
+}
+
+.header p
+{
+  font-family: 'Reem Kufi', sans-serif;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+@media (max-width: 991px)
+{
+  .menu
+  {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 767px)
+{
+  .header
+  {
+    padding: 10vh 0;
+  }
+}
+

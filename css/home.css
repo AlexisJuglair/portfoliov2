@@ -1,0 +1,42 @@
+.home
+{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("../images/background.jpg") no-repeat center ;
+    background-size: cover;
+    padding: 3rem;
+    margin-bottom: 3rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    display: flex;
+}
+
+.main-title, .main-title-p
+{
+    
+    color: #fff;
+    font-weight: 900;
+}
+
+.main-title
+{
+    -webkit-text-stroke: 2px #000;
+    font-size: calc(1.475rem + 2.7vw);
+    line-height: 1.2;
+    
+}
+
+.main-title-p
+{
+    font-size: 1.25rem; 
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.main-title-a
+{
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0s, opacity 1s linear;
+}

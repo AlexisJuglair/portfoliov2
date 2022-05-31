@@ -1,0 +1,165 @@
+.portfolio-wrapper
+{
+    /* box-shadow: 0px 0px 30px #00000029;
+    border-radius: 20px;
+    background-color: white; */
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.portfolio-wrapper *
+{
+    transition: all .5s;
+}
+
+.portfolio-wrapper .projet:nth-child(2) > img,
+.portfolio-wrapper .projet:nth-child(3) > img,
+.portfolio-wrapper .projet:nth-child(6) > img,
+.portfolio-wrapper .projet:nth-child(7) > img,
+.portfolio-wrapper .projet:nth-child(8) > img,
+.portfolio-wrapper .projet:nth-child(9) > img,
+.portfolio-wrapper .projet:nth-child(11) > img
+{
+    border: 1px solid #333333;
+}
+
+.projet
+{
+    flex: 0 0 calc(33.333333% - 20px);
+    padding: 40px;
+    box-shadow: 0px 0px 30px #00000029;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.projet > img
+{
+    margin-bottom: 20px;
+    width: 100%; 
+}
+
+.projet h5
+{
+    color: #333333;
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Tusker Grotesk', sans-serif;
+    margin-bottom: 20px;
+    font-weight: normal;
+    height: 60px;
+}
+
+.projet p
+{
+    color: #707070;
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.projet-description
+{
+    text-align: left !important;
+    margin-bottom: 30px;
+    height: 70px;
+}
+
+.projet-techno
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: 132px;
+}
+
+.projet-techno div
+{
+    flex: 0 0 calc(25% - 20px);
+    text-align: center;
+}
+
+.projet-techno img
+{
+    width: 40px;
+}
+
+.projet-boutons
+{
+    display: flex;
+    gap: 20px;
+}
+
+.projet-boutons a
+{
+    text-decoration: none;
+    text-align: center;
+    width: 50%;
+    background-color: #6DC5A9;
+    color: white;
+    box-shadow: 0px 0px 20px #00000029;
+    border-radius: 42px;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.projet a:hover
+{
+    background-color: white;
+    color: #6DC5A9;
+}
+
+.projet-boutons-disabled
+{
+    background-color: rgba(109, 197, 169, .5) !important;
+}
+
+.projet-boutons-disabled:hover
+{
+    background-color: rgba(109, 197, 169, .5) !important;
+    color: white !important;
+}
+
+.projet i 
+{
+    margin-right: 0.5rem;
+}
+
+@media (min-width: 992px) and (max-width: 1097px)
+{
+    .projet-boutons
+    {
+        display: block;
+        text-align: center;
+    }
+    .projet-boutons a
+    {
+        padding: 10px;
+    }
+
+    .projet-boutons a:first-child
+    {
+        margin-right: 5px;
+    }
+}
+
+@media (max-width: 991px)
+{
+    .projet
+    {
+        flex: 0 0 calc(50% - 20px);
+    }
+}
+
+@media (max-width: 767px)
+{
+    .projet
+    {
+        flex: 0 0 100%;
+    }
+}

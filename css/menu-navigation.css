@@ -1,0 +1,47 @@
+.menu-navigation
+{
+  position: absolute;
+  list-style-type: none;
+  font-family: 'Tusker Grotesk', sans-serif;
+  display: flex;
+  gap: 40px;
+  font-size: 60px;
+  justify-content: center;
+}
+
+.menu-navigation-first
+{
+  left: 0;
+  right: -850px;
+}
+
+.menu-navigation-second
+{
+  left: 0;
+  right: -850px;
+}
+
+.menu-navigation a
+{
+  text-decoration: none;
+}
+
+.menu-navigation-courant a
+{
+  color: #333333;
+}
+
+.menu-navigation-precedent a
+{
+  color: #9ED8C5;
+}
+
+.menu-navigation-suivant a
+{
+  color: #6FF2C8;
+}
+
+.menu-navigation-accueil a
+{
+  color: #4E4EFF;
+}

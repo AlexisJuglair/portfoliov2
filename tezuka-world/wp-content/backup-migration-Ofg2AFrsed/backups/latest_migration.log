@@ -1,0 +1,150 @@
+[STEP] [2022-01-20 15:41:30] Initialisation de la procédure de restauration
+[STEP] [2022-01-20 15:41:32] Recherche du fichier exécutable PHP CLI.
+[WARN] [2022-01-20 15:41:32] Impossible de trouver l’exécutable PHP CLI approprié, ce processus peut être instable.
+[SUCCESS] [2022-01-20 15:41:32] La procédure de restauration a répondue
+[SUCCESS] [2022-01-20 15:41:32] Verrouillage du processus de migration
+[STEP] [2022-01-20 15:41:32] Initialisation de la procédure de restauration
+[INFO] [2022-01-20 15:41:32] Version de sauvegarde et migration :1.1.9
+[INFO] [2022-01-20 15:41:32] Initialisation du gestionnaire d’erreurs personnalisé
+[INFO] [2022-01-20 15:41:32] Site qui sera restauré :https://alexisj802.promo-73.codeur.online/tezuka-world
+[INFO] [2022-01-20 15:41:32] Version PHP : 7.4.23
+[INFO] [2022-01-20 15:41:32] WP Version: 5.8.3
+[INFO] [2022-01-20 15:41:32] Serveur : Apache/2.4.25 (Debian)
+[INFO] [2022-01-20 15:41:32] Temps d’exécution maximum (en secondes) : 259200
+[SUCCESS] [2022-01-20 15:41:32] Restore process initialized successfully.
+[STEP] [2022-01-20 15:41:32] Vérification de l’espace libre…
+[INFO] [2022-01-20 15:41:32] Vérifier s’il y a suffisamment d’espace libre
+[INFO] [2022-01-20 15:41:32] Nécessite au moins 189524947 octets. [180.75 MB]
+[INFO] [2022-01-20 15:41:32] Disk free space function is not disabled - using it...
+[INFO] [2022-01-20 15:41:32] Vérification de chemin/partition : /home/alexisj802/www/public/tezuka-world/wp-content/backup-migration-Ofg2AFrsed/backups
+[SUCCESS] [2022-01-20 15:41:32] Il y a 40,854.86 Mo gratuit. [39.9 GB]
+[SUCCESS] [2022-01-20 15:41:32] Super ! Il y a suffisamment d’espace.
+[SUCCESS] [2022-01-20 15:41:32] Confirmed, there is enough space on the device, checked: 189524947 bytes.
+[STEP] [2022-01-20 15:41:32] Création d’une nouvelle clé secrète pour le processus de restauration en cours.
+[SUCCESS] [2022-01-20 15:41:32] Clé secrète générée, elle vous sera restituée (ping).
+[INFO] [2022-01-20 15:41:32] Clé secrète détectée avec succès (pong) !
+[INFO] [2022-01-20 15:41:32] Faire un répertoire temporaire
+[STEP] [2022-01-20 15:41:32] Analyse de l’archive…
+[INFO] [2022-01-20 15:41:32] Analyse trouvée2484fichiers à l’intérieur de la sauvegarde.
+[STEP] [2022-01-20 15:41:32] Préparation de la technique de dosage pour l’extraction...
+[INFO] [2022-01-20 15:41:32] Fichiers exportés par lot :1000
+[INFO] [2022-01-20 15:41:32] Utilisation de ZipArchive, en omettant les calculs de limite de mémoire...
+[INFO] [2022-01-20 15:41:33] Étape d’extraction :1001/2485 (40.28%)
+[INFO] [2022-01-20 15:41:34] Étape d’extraction :2001/2485 (80.52%)
+[INFO] [2022-01-20 15:41:37] Étape d’extraction :2485/2485 (100.00%)
+[SUCCESS] [2022-01-20 15:41:37] Fichiers extraits…
+[STEP] [2022-01-20 15:41:38] Enregistrement du fichier wp-config…
+[SUCCESS] [2022-01-20 15:41:38] Fichier wp-config enregistré
+[STEP] [2022-01-20 15:41:38] Obtention du manifeste de sauvegarde…
+[SUCCESS] [2022-01-20 15:41:38] Manifeste chargé
+[INFO] [2022-01-20 15:41:38] Backup Migration version used for that backup: 1.1.9
+[STEP] [2022-01-20 15:41:38] Restoring files (this process may take a while)...
+[SUCCESS] [2022-01-20 15:41:39] All files restored successfully.
+[STEP] [2022-01-20 15:41:39] Converting database files into partial files.
+[INFO] [2022-01-20 15:41:39] Max rows per query (this site): 300
+[INFO] [2022-01-20 15:41:39] Max rows per query (source site): 300
+[INFO] [2022-01-20 15:41:39] Starting conversion of: wp_commentmeta table.
+[INFO] [2022-01-20 15:41:39] Finished part 1 of wp_commentmeta table.
+[INFO] [2022-01-20 15:41:39] Finished part 2 of wp_commentmeta table.
+[SUCCESS] [2022-01-20 15:41:39] Finished 1/12 (8.33%): wp_commentmeta table, total of 2 parts.
+[INFO] [2022-01-20 15:41:40] Starting conversion of: wp_comments table.
+[INFO] [2022-01-20 15:41:40] Finished part 1 of wp_comments table.
+[INFO] [2022-01-20 15:41:40] Finished part 2 of wp_comments table.
+[SUCCESS] [2022-01-20 15:41:40] Finished 2/12 (16.67%): wp_comments table, total of 2 parts.
+[INFO] [2022-01-20 15:41:40] Starting conversion of: wp_links table.
+[INFO] [2022-01-20 15:41:40] Finished part 1 of wp_links table.
+[SUCCESS] [2022-01-20 15:41:40] Finished 3/12 (25.00%): wp_links table, total of 1 parts.
+[INFO] [2022-01-20 15:41:40] Starting conversion of: wp_options table.
+[INFO] [2022-01-20 15:41:40] Finished part 1 of wp_options table.
+[INFO] [2022-01-20 15:41:41] Finished part 2 of wp_options table.
+[SUCCESS] [2022-01-20 15:41:41] Finished 4/12 (33.33%): wp_options table, total of 2 parts.
+[INFO] [2022-01-20 15:41:41] Starting conversion of: wp_postmeta table.
+[INFO] [2022-01-20 15:41:41] Finished part 1 of wp_postmeta table.
+[INFO] [2022-01-20 15:41:42] Finished part 2 of wp_postmeta table.
+[INFO] [2022-01-20 15:41:43] Finished part 3 of wp_postmeta table.
+[INFO] [2022-01-20 15:41:46] Finished part 4 of wp_postmeta table.
+[INFO] [2022-01-20 15:41:49] Finished part 5 of wp_postmeta table.
+[SUCCESS] [2022-01-20 15:41:49] Finished 5/12 (41.67%): wp_postmeta table, total of 5 parts.
+[INFO] [2022-01-20 15:41:49] Starting conversion of: wp_posts table.
+[INFO] [2022-01-20 15:41:49] Finished part 1 of wp_posts table.
+[INFO] [2022-01-20 15:41:53] Finished part 2 of wp_posts table.
+[SUCCESS] [2022-01-20 15:41:53] Finished 6/12 (50.00%): wp_posts table, total of 2 parts.
+[INFO] [2022-01-20 15:41:53] Starting conversion of: wp_term_relationships table.
+[INFO] [2022-01-20 15:41:53] Finished part 1 of wp_term_relationships table.
+[INFO] [2022-01-20 15:41:53] Finished part 2 of wp_term_relationships table.
+[SUCCESS] [2022-01-20 15:41:53] Finished 7/12 (58.33%): wp_term_relationships table, total of 2 parts.
+[INFO] [2022-01-20 15:41:53] Starting conversion of: wp_term_taxonomy table.
+[INFO] [2022-01-20 15:41:53] Finished part 1 of wp_term_taxonomy table.
+[INFO] [2022-01-20 15:41:54] Finished part 2 of wp_term_taxonomy table.
+[SUCCESS] [2022-01-20 15:41:54] Finished 8/12 (66.67%): wp_term_taxonomy table, total of 2 parts.
+[INFO] [2022-01-20 15:41:54] Starting conversion of: wp_termmeta table.
+[INFO] [2022-01-20 15:41:54] Finished part 1 of wp_termmeta table.
+[SUCCESS] [2022-01-20 15:41:54] Finished 9/12 (75.00%): wp_termmeta table, total of 1 parts.
+[INFO] [2022-01-20 15:41:54] Starting conversion of: wp_terms table.
+[INFO] [2022-01-20 15:41:54] Finished part 1 of wp_terms table.
+[INFO] [2022-01-20 15:41:54] Finished part 2 of wp_terms table.
+[SUCCESS] [2022-01-20 15:41:54] Finished 10/12 (83.33%): wp_terms table, total of 2 parts.
+[INFO] [2022-01-20 15:41:54] Starting conversion of: wp_usermeta table.
+[INFO] [2022-01-20 15:41:54] Finished part 1 of wp_usermeta table.
+[INFO] [2022-01-20 15:41:54] Finished part 2 of wp_usermeta table.
+[SUCCESS] [2022-01-20 15:41:54] Finished 11/12 (91.67%): wp_usermeta table, total of 2 parts.
+[INFO] [2022-01-20 15:41:55] Starting conversion of: wp_users table.
+[INFO] [2022-01-20 15:41:55] Finished part 1 of wp_users table.
+[INFO] [2022-01-20 15:41:55] Finished part 2 of wp_users table.
+[SUCCESS] [2022-01-20 15:41:55] Finished 12/12 (100.00%): wp_users table, total of 2 parts.
+[SUCCESS] [2022-01-20 15:41:55] Database convertion finished successfully.
+[STEP] [2022-01-20 15:41:55] Calculating new query size and counts.
+[SUCCESS] [2022-01-20 15:41:55] Calculaion completed, printing details.
+[INFO] [2022-01-20 15:41:55] Total queries to insert after conversion: 125
+[INFO] [2022-01-20 15:41:55] Partial files count after conversion: 25
+[INFO] [2022-01-20 15:41:55] Total size of the database: 2.82 MB
+[INFO] [2022-01-20 15:41:55] Table count to be imported: 12
+[STEP] [2022-01-20 15:41:55] Checking the database structure...
+[INFO] [2022-01-20 15:41:55] Sauvegarde détectée avec succès créée avec le moteur V2, importation...
+[STEP] [2022-01-20 15:41:55] Restauration de la base de données…
+[INFO] [2022-01-20 15:41:55] Initializing database import V2 engine...
+[SUCCESS] [2022-01-20 15:41:55] Initialized successfully, memory usage: 9.37 MB
+[INFO] [2022-01-20 15:41:55] Loading file list...
+[SUCCESS] [2022-01-20 15:41:55] File list loaded, memory usage: 9.38 MB
+[INFO] [2022-01-20 15:41:55] Finished 5/125 (4.00%) for wp_commentmeta table (part: 1/2, size: 913 B).
+[INFO] [2022-01-20 15:41:56] Finished 10/125 (8.00%) for wp_commentmeta table (part: 2/2, size: 705 B).
+[INFO] [2022-01-20 15:41:57] Finished 15/125 (12.00%) for wp_comments table (part: 1/2, size: 1.86 KB).
+[INFO] [2022-01-20 15:41:57] Finished 20/125 (16.00%) for wp_comments table (part: 2/2, size: 1.24 KB).
+[INFO] [2022-01-20 15:41:58] Finished 25/125 (20.00%) for wp_links table (part: 1/1, size: 1.48 KB).
+[INFO] [2022-01-20 15:41:59] Finished 30/125 (24.00%) for wp_options table (part: 1/2, size: 960 B).
+[INFO] [2022-01-20 15:42:02] Finished 35/125 (28.00%) for wp_options table (part: 2/2, size: 1.11 MB).
+[INFO] [2022-01-20 15:42:03] Finished 40/125 (32.00%) for wp_postmeta table (part: 1/5, size: 898 B).
+[INFO] [2022-01-20 15:42:04] Finished 45/125 (36.00%) for wp_postmeta table (part: 2/5, size: 113.95 KB).
+[INFO] [2022-01-20 15:42:05] Finished 50/125 (40.00%) for wp_postmeta table (part: 3/5, size: 217.86 KB).
+[INFO] [2022-01-20 15:42:07] Finished 55/125 (44.00%) for wp_postmeta table (part: 4/5, size: 659.97 KB).
+[INFO] [2022-01-20 15:42:08] Finished 60/125 (48.00%) for wp_postmeta table (part: 5/5, size: 189.98 KB).
+[INFO] [2022-01-20 15:42:09] Finished 65/125 (52.00%) for wp_posts table (part: 1/2, size: 2.23 KB).
+[INFO] [2022-01-20 15:42:14] Finished 70/125 (56.00%) for wp_posts table (part: 2/2, size: 546.33 KB).
+[INFO] [2022-01-20 15:42:15] Finished 75/125 (60.00%) for wp_term_relationships table (part: 1/2, size: 837 B).
+[INFO] [2022-01-20 15:42:16] Finished 80/125 (64.00%) for wp_term_relationships table (part: 2/2, size: 1.29 KB).
+[INFO] [2022-01-20 15:42:17] Finished 85/125 (68.00%) for wp_term_taxonomy table (part: 1/2, size: 1.03 KB).
+[INFO] [2022-01-20 15:42:18] Finished 90/125 (72.00%) for wp_term_taxonomy table (part: 2/2, size: 938 B).
+[INFO] [2022-01-20 15:42:18] Finished 95/125 (76.00%) for wp_termmeta table (part: 1/1, size: 878 B).
+[INFO] [2022-01-20 15:42:20] Finished 100/125 (80.00%) for wp_terms table (part: 1/2, size: 892 B).
+[INFO] [2022-01-20 15:42:20] Finished 105/125 (84.00%) for wp_terms table (part: 2/2, size: 917 B).
+[INFO] [2022-01-20 15:42:21] Finished 110/125 (88.00%) for wp_usermeta table (part: 1/2, size: 898 B).
+[INFO] [2022-01-20 15:42:21] Finished 115/125 (92.00%) for wp_usermeta table (part: 2/2, size: 2.76 KB).
+[INFO] [2022-01-20 15:42:22] Finished 120/125 (96.00%) for wp_users table (part: 1/2, size: 1.38 KB).
+[INFO] [2022-01-20 15:42:23] Finished 125/125 (100.00%) for wp_users table (part: 2/2, size: 829 B).
+[STEP] [2022-01-20 15:42:23] Switching tables to new ones and removing old ones.
+[SUCCESS] [2022-01-20 15:42:28] Tables replaced successfully.
+[SUCCESS] [2022-01-20 15:42:28] Base de données restaurée
+[STEP] [2022-01-20 15:42:28] Restauration du fichier wp-config…
+[SUCCESS] [2022-01-20 15:42:29] WP-Config restauré
+[STEP] [2022-01-20 15:42:29] Faire une nouvelle session de connexion
+[SUCCESS] [2022-01-20 15:42:29] L’utilisateur doit être connecté
+[STEP] [2022-01-20 15:42:29] Effacement du cache des modèles Elementor…
+[SUCCESS] [2022-01-20 15:42:29] Cache Elementor effacé !
+[STEP] [2022-01-20 15:42:29] Nettoyage des fichiers temporaires…
+[INFO] [2022-01-20 15:42:29] Suppression790 fichiers
+[SUCCESS] [2022-01-20 15:42:29] Fichiers temporaires nettoyés
+[INFO] [2022-01-20 15:42:29] La procédure de restauration a pris :57.33 seconds.
+[SUCCESS] [2022-01-20 15:42:29] Procédure de restauration terminée
+[STEP] [2022-01-20 15:42:29] Finalisation des fichiers restaurés
+[INFO] [2022-01-20 15:42:29] Déverrouillage de la migration
+[END-CODE] [2022-01-20 15:42:29] #001

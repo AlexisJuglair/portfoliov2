@@ -1,0 +1,26 @@
+table {
+    text-align: center;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 25%
+}
+
+thead, tfoot {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+thead th {
+    border-bottom: 3px solid red;
+}
+
+tbody tr:nth-child(even) {
+    background-color: lightgrey;
+}
+
+img {
+    vertical-align: middle;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title>Index</title>
+<style type="text/css">
+#menu, #menu ul {
+    padding:0;
+    margin:0;
+    list-style: none;
+}
+#menu li {
+    display:inline-block;
+    width:150px;
+    text-align: center;
+    background: #999;
+}
+#menu ul {
+    position:absolute;
+    left:-999em;
+}
+#menu li:hover ul {
+    left:auto;
+}
+#menu a {
+    display:block;
+}
+</style>
+</head>
+<body>
+    <ul id="menu">
+        <li id='accueil'><a href="index.php">accueil</a></li>
+        <li><a href="" class='catalogue'>CATALOGUE</a></li>
+        <li><a class='fonction' href="">FONCTIONNEMENT</a>
+            <ul>
+                <li><a href='toto'>toto</a></li>
+                <li><a href='toto'>tutu</a></li>
+                <li><a href='toto'>titi</a></li>
+                <li><a href='toto'>tata</a></li>
+            </ul>
+        </li>
+        <li><a class='service' href="">LES SERVICES</a></li>
+        <li><a class='commande' href="">COMMANDE</a>
+            <ul>
+                <li><a href='toto'>toto</a></li>
+                <li><a href='toto'>tutu</a></li>
+                <li><a href='toto'>titi</a></li>
+                <li><a href='toto'>tata</a></li>
+            </ul>
+        </li>
+        <li><a class='contact' href="">CONTACT</a></li>
+    </ul>
+</body>
+</html>

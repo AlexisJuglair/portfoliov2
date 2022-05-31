@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    height: 100px;
+    background-color: red;
+    background-image: url("image.png");
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    height: 400px;
+    background-color: blue;
+}
+
+.blocks {
+    height: 100%;
+    background-color: grey;
+}
+
+#blockleft, #blockright {
+    width: 20%;
+    float: left;
+}
+
+#blockmiddle {
+    width: 60%;
+    background-color: blue;
+    float: left;
+}
+
+footer {
+    height: 100px;
+    background-color: black;
+}

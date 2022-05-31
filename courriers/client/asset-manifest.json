@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/courriers/client/static/css/main.b73c5809.css",
+    "main.js": "/courriers/client/static/js/main.686c6150.js",
+    "static/media/MochiyPopPOne-Regular.ttf": "/courriers/client/static/media/MochiyPopPOne-Regular.a343480e7534e19d0c78.ttf",
+    "static/media/Oswald-VariableFont_wght.ttf": "/courriers/client/static/media/Oswald-VariableFont_wght.7aae63364e12a102a22a.ttf",
+    "static/media/background.png": "/courriers/client/static/media/background.2cc8cedfb5998a9770c3.png",
+    "index.html": "/courriers/client/index.html",
+    "main.b73c5809.css.map": "/courriers/client/static/css/main.b73c5809.css.map",
+    "main.686c6150.js.map": "/courriers/client/static/js/main.686c6150.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b73c5809.css",
+    "static/js/main.686c6150.js"
+  ]
+}

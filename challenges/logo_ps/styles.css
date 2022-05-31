@@ -1,0 +1,79 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main 
+{ 
+    position: relative;
+    margin: 15vh auto;
+    width: 450px;
+    height: 450px;
+}
+
+.logo 
+{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+
+#carre
+{
+    border: 20px solid #FC6DFB
+}
+
+#triangle-out
+{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 100px 173.2px 100px;
+    border-color: transparent transparent #47E3A6 transparent;
+}
+
+#triangle-in
+{
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 17px;
+    left: 184px;
+    border-style: solid;
+    border-width: 0 80px 150px 80px;
+    border-color: transparent transparent #fff transparent;
+}
+ 
+#croix-vertic 
+{
+    position: absolute;
+    width: 20px;
+    left: 90px;
+    height: 200px;
+    background-color: #7CB4EC;
+    transform: rotate(45deg);
+}
+ 
+#croix-horiz 
+{
+    position: absolute;
+    height: 20px;
+    width: 200px;
+    top: 270px;
+    background-color: #7CB4EC;
+    transform: rotate(45deg);
+}
+
+#rond 
+{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    border-radius: 50%;
+    border: 20px solid #FC6666;
+}
+
+

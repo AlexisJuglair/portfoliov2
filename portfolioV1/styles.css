@@ -1,0 +1,73 @@
+body
+{
+    background-color: whitesmoke;
+}
+
+/* NAVBAR */
+
+.bg-custom
+{
+    background-color: #333;
+    border-bottom: 1px solid #000;;
+}
+
+@media (min-width: 992px)
+{
+    .active
+    {
+        border-bottom: 5px solid #fff;
+        border-radius: 50%;
+    }
+
+    .nav-item-custom:hover, .nav-item-custom-bis:hover
+    {
+        -webkit-transition: background-color .5s linear;
+        -ms-transition: background-color .5s linear;
+        transition: background-color .5s linear;
+    }
+
+    .nav-item-custom:hover
+    {
+        background-color: #555;
+
+    }
+
+    .nav-item-custom-bis a:hover
+    {
+        color: #000 !important;
+        border-bottom-color: #000;;
+    }
+}
+
+/* ACCUEIL */
+
+#accueil
+{
+    background: url("assets/images/background.jpg") no-repeat center;
+    background-size: cover;
+}
+
+#main-title, #main-title-p
+{
+    -webkit-text-stroke: 1px #000;
+}
+
+#main-title-a
+{
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0s, opacity 1s linear;
+}
+
+/* CONTACT */
+
+.form-floating > label
+{
+    left: initial;
+}
+
+textarea
+{
+    height: 250px !important; 
+    resize: none;
+}

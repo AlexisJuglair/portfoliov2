@@ -1,0 +1,50 @@
+:root 
+{
+    --color: blue; 
+    --color2: red;
+    --bgcolor: white;
+    --bgcolor2: black;
+    --decoration: none;
+}
+
+h1 
+{
+    text-align: right;
+    text-decoration: underline;
+    font-size: 48px;
+    color: var(--color2, red);
+}
+
+@media (max-width: 1159px) 
+{ 
+    h1 
+    {
+        text-align: left;
+        font-weight: bold;
+        font-size: 38px;
+        color: var(--bgcolor, white);
+        text-decoration: var(--decoration, none);
+    }
+
+    body 
+    {
+        background-color: var(--bgcolor2, black);
+    }
+}
+
+@media (max-width: 768px) 
+{ 
+    h1 
+    {
+        text-align: center;
+        font-style: italic;
+        font-size: 28px;
+        color: var(--color);
+        text-decoration: var(--decoration, none);
+    }
+
+    body 
+    {
+        background-color: var(--bgcolor), white;
+    }
+}

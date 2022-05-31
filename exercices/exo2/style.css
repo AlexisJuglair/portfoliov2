@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    height: 100px;
+    background-color: red;
+    display: block;
+}
+
+/* Mon commentaire */
+#logo {
+    width: 33.33%;
+    height: 100px;
+    background-color: purple;
+    float: left;
+}
+
+.menu {
+    width: 66.66%;
+    height: 100px;
+    background-color: coral;
+    float: left;
+    
+}
+
+main {
+    height: 400px;
+    background-color: blue;
+}
+
+footer {
+    height: 100px;
+    background-color: black;
+}

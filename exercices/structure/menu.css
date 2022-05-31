@@ -1,0 +1,71 @@
+nav {
+    height: 60px;
+}
+
+.main-menu {
+    text-align: center;
+    padding: 15px;
+    background-color: #CCCCCC;
+    border-radius: 5px 5px 0 0;
+    margin: 0 5px;
+    font-size: 14px;
+}
+
+.main-menu:hover, .menu:hover, .main-menu:first-child {
+    background-color: #E71F73;
+}
+
+#active, .main-menu a:hover {
+    color: white;
+}
+
+.main-menu a {
+    color: #333333;
+    text-decoration: none;
+}
+
+.main-menu a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+nav li {
+    text-transform: uppercase;
+    list-style-type: none;
+    display: inline;
+}
+
+#menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+#menu ul {
+    position: absolute;
+    left: -999em;
+    z-index: 1000;
+}
+
+#menu .dropdown:hover ul {
+    left: auto;
+    background-color: #CCCCCC;
+}
+
+#menu a {
+    display: block;
+}
+
+.under {
+    padding: 10px;
+    color: #333333;
+    font-size: 13px;
+}
+
+.under:hover {
+    background-color: #333333;
+    color: white;
+}
+
+.under a:hover {
+    background-color: #333333;
+}

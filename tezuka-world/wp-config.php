@@ -31,7 +31,7 @@ define( 'DB_USER', 'alexisj802' );
 define( 'DB_PASSWORD', 'i1L21Z158gbOnw==' );
 
 /** Adresse de l’hébergement MySQL. */
-define( 'DB_HOST', ' promo-73.codeur.online' );
+define( 'DB_HOST', ' promo-73.codeur.online:3306' );
 
 /** Jeu de caractères à utiliser par la base de données lors de la création des tables. */
 define( 'DB_CHARSET', 'utf8mb4' );

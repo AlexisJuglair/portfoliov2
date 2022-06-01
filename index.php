@@ -272,7 +272,7 @@
                                         <h4>Réseau Canopé - 2016-2017 | Bourg-en-Bresse</h4>
                                         <p>Technicien/développeur informatique</p>
                                         <p>
-                                            Gestion et maintenance des postes/du matériel informatiques/tablettes iPad-Android.<br>
+                                            - Gestion et maintenance des postes/du matériel informatiques/tablettes iPad-Android.<br>
                                             - Préparation des salles de formation.<br>
                                             - Développement d'une application web de gestion de storyboard (front-end en HTML, CSS, JavaScript, jQuery | back-end en PHP).<br> 
                                             - Réalisation de web documentaires avec Klynt.</p>
@@ -288,7 +288,7 @@
                                     <div class="cv-experience-body">
                                         <h4>CPAM - 2014 | Mâcon</h4>
                                         <p>Technicien informatique</p>
-                                        <p>Gestion de requête SQL, avec mise en forme de tableaux EXCEL de résultats.</p>
+                                        <p>- Gestion de requête SQL, avec mise en forme de tableaux EXCEL de résultats.</p>
                                     </div>
                                 </div>
                             </a>

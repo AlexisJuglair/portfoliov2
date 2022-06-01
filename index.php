@@ -879,7 +879,7 @@
                             </div>
                         </div>  
                         <div class="projet-boutons">
-                            <a href="/tezuka-world" target="_blank">
+                            <a href="https://alexisj802.promo-73.codeur.online/tezuka-world/" target="_blank">
                                 <i class="fas fa-eye"></i> 
                                 Voir
                             </a>

@@ -203,7 +203,10 @@
                                     <div class="cv-experience-body">
                                         <h4>Jam Difus’ - 2022 | Villars-les-Dombes</h4>
                                         <p>Stagiaire développeur web</p>
-                                        <p>Création de modules et correction de bugs sur les sites de l'entreprise, spécialisée dans la vente de revêtement adhésif sur internet (PHP, jQuery).</p>
+                                        <p>
+                                            - Formation en interne sur le framework de l'entreprise.<br>
+                                            - Réalsiation d'un site institutionel one page responsive sur une des marques de l'entreprise(front-end en HTML, CSS, JavaScript et jQuery | back-end en PHP, MySQL et framework proprétaire).
+                                        </p>
                                     </div>     
                                 </div>
                             </a>
@@ -217,7 +220,9 @@
                                         <div class="cv-experience-body">
                                             <h4>2BSystem - 2020 | Bourg-en-Bresse</h4>
                                             <p>Développeur web</p>
-                                            <p>Développement d'un portail web pour les clients des clients dans le domaine de l'agroalimentaire (J2EE, Bulma).</p>
+                                            <p>
+                                                - Développement d'un portail web pour les clients des clients dans le domaine de l'agroalimentaire (fon-end en HTML, CSS, JavaScript et Bulma | back-end en J2EE).
+                                            </p>
                                         </div>     
                                 </div>
                             </a>
@@ -230,7 +235,11 @@
                                     <div class="cv-experience-body">
                                         <h4>ACG Synergies - 2018-2019 | Bourg-en-Bresse</h4>
                                         <p>Développeur</p>
-                                        <p>Développement de projet et correction de bugs sur le progiciel de logement social Aravis (Plex, AS400, Scrum).</p>
+                                        <p>
+                                            - Correction de bugs sur le progiciel de logement social Aravis développé en Plex(langage dérivé du C).<br>
+                                            - Gestion de requête et débugage sur serveur AS400.<br>
+                                            - Méthodologie Agile SCRUM.
+                                        </p>
                                     </div>
                                 </div>
                             </a>
@@ -243,7 +252,13 @@
                                     <div class="cv-experience-body">
                                         <h4>Sodipan - 2018 | Péronnas</h4>
                                         <p>Développeur web</p>
-                                        <p>Développement des trois sites web de l'entreprise sous Wordpress, référencement, formation utilisateur, rédaction de la documentation, mise en ligne de produits.</p>
+                                        <p>
+                                            - Développement des trois sites web de l'entreprise sous Wordpress(choix d'un thème et front-end en HTML et CSS).<br>
+                                            - Référencement SEO.<br>
+                                            - Formation utilisateur.<br>
+                                            - Rédaction de documentations.<br>
+                                            - Mise en ligne de produits.
+                                        </p>
                                     </div>
                                 </div>
                             </a>
@@ -256,7 +271,11 @@
                                     <div class="cv-experience-body">
                                         <h4>Réseau Canopé - 2016-2017 | Bourg-en-Bresse</h4>
                                         <p>Technicien/développeur informatique</p>
-                                        <p>Gestion des postes/du matériel informatiques/tablettes iPad-Android, développement d'une application web de gestion de storyboard (HTML, CSS, PHP, JavaScript, jQuery), réalisation de web documentaires (Klynt).</p>
+                                        <p>
+                                            Gestion et maintenance des postes/du matériel informatiques/tablettes iPad-Android.<br>
+                                            - Préparation des salles de formation.<br>
+                                            - Développement d'une application web de gestion de storyboard (front-end en HTML, CSS, JavaScript, jQuery | back-end en PHP).<br> 
+                                            - Réalisation de web documentaires avec Klynt.</p>
                                     </div>
                                 </div>
                             </a>
@@ -269,7 +288,7 @@
                                     <div class="cv-experience-body">
                                         <h4>CPAM - 2014 | Mâcon</h4>
                                         <p>Technicien informatique</p>
-                                        <p>Gestion de requête SQL, mise en forme de tableaux de résultats et formation publipostage.</p>
+                                        <p>Gestion de requête SQL, avec mise en forme de tableaux EXCEL de résultats.</p>
                                     </div>
                                 </div>
                             </a>
@@ -282,7 +301,7 @@
                                     <div class="cv-experience-body">
                                         <h4>GPI - 2014 | Craponne</h4>
                                         <p>Développeur</p>
-                                        <p>Maintenance et correction de bugs sur les programmes du progiciel de transport D'Artagnan (Progress).</p>
+                                        <p>- Maintenance et correction de bugs sur les programmes du progiciel de transport D'Artagnan avec le langage Progress.</p>
                                     </div>
                                 </div>
                             </a>
@@ -295,7 +314,7 @@
                                     <div class="cv-experience-body">
                                         <h4>Nexans - 2013 | Nexans</h4>
                                         <p>Développeur</p>
-                                        <p>Développement de 2 applications de gestion de lignes de production (VBA et VB.net avec SGBD Access).</p>
+                                        <p>- Développement de 2 applications de gestion de lignes de production en langages VBA et VB.net avec le SGBD Access.</p>
                                     </div>
                                 </div>
                             </a>
@@ -308,7 +327,7 @@
                                     <div class="cv-experience-body">
                                         <h4>Charnay-lès-Mâcon - 2012 | EREA</h4>
                                         <p>Stagiaire développeur</p>
-                                        <p>Développement d'une application de gestion des stocks (VB.net avec SGBD Access).</p>
+                                        <p>- Développement d'une application de gestion des stocks avec le langage VB.net avec le SGBD Access.</p>
                                     </div>
                                 </div>
                             </a>

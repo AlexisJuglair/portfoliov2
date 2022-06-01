@@ -394,7 +394,7 @@
                                         </a>
                                     </div>
                                     <div>
-                                        <a href="ttps://www.prestashop.com/fr/" target="_blank">
+                                        <a href="https://www.prestashop.com/fr/" target="_blank">
                                             <img src="./images/competences/prestashop.png" alt="prestashop" title="PrestaShop">           
                                         </a>
                                     </div>  
@@ -404,7 +404,7 @@
                                         </a>
                                     </div>
                                     <div>
-                                        <a href="ttps://code.visualstudio.com/" target="_blank">
+                                        <a href="https://code.visualstudio.com/" target="_blank">
                                             <img src="./images/competences/vscode.png" alt="vscode" title="Visual Studio Code">           
                                         </a>
                                     </div>

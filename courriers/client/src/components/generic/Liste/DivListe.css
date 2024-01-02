@@ -1,0 +1,30 @@
+.divListe
+{
+  overflow: auto;
+  font-family: 'Oswald', sans-serif;
+  background-color: #ccc;
+  position: absolute;
+  top: 40px;
+  bottom: 80px;
+  left: 0;
+  right: 0;
+  display: block;
+}
+
+.divListe::-webkit-scrollbar
+{
+  width: 8px;
+  background-color: #aaa;
+}
+
+.divListe::-webkit-scrollbar-thumb
+{
+  background-color: #37474F;
+  border-radius: 5px;
+}
+
+.divListe::-webkit-scrollbar-thumb:hover,
+.divListe::-webkit-scrollbar-thumb:active
+{
+  background-color: #455A64;
+}

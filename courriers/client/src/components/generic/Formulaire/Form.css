@@ -1,0 +1,17 @@
+.divForm
+{
+  padding: 50px;
+  background-color: #ccc;
+}
+
+.divForm form
+{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  max-width: 600px;
+  overflow: hidden;
+  flex-wrap: wrap;
+  margin: auto;
+}

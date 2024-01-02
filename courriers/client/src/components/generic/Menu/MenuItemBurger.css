@@ -1,0 +1,23 @@
+.subLineBurger
+{
+  padding: 5px 10px;
+  display: block;
+}
+
+.subLineBurger:hover
+{
+  color: white;
+  background-color: #455A64;
+  cursor: pointer;
+}
+
+.subLineBurger i
+{
+  margin-right: 10px;
+  color: #ccc;
+}
+
+.subLineBurger i:hover
+{
+  color: white;
+}

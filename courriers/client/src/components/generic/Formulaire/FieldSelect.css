@@ -1,0 +1,30 @@
+.fieldSelect
+{
+  display: block;
+  text-align: center;
+  margin: 10px;
+  padding: 0;
+}
+
+.fieldSelect label
+{
+  display: block;
+  text-align: left;
+  width: 100%;
+}
+
+.fieldSelect span
+{
+    color: #b71c1c;
+}
+
+.fieldSelect select
+{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  height: 30px;
+  border-radius: 5px;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}

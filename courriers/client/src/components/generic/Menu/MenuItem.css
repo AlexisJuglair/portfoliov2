@@ -1,0 +1,46 @@
+.line
+{
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 20px;
+  vertical-align: middle;
+  line-height: 40px;
+}
+
+.line:hover
+{
+  color: white;
+  background: #455A64;
+}
+
+.subItem
+{
+  min-width: 200px;
+  display: none;
+  position: absolute;
+  background-color: #37474F;
+  text-align: left;
+  margin-left: -20px;
+  padding: 5px 0;
+  border-radius: 5px;
+  box-shadow: 0 3px 15px black;
+  z-index: 1;
+  top: 40px;
+}
+
+.item:last-child li .subItem
+{
+  right: 0;
+  min-width: 200px;
+  display: none;
+  position: absolute;
+  background-color: #37474F;
+  text-align: left;
+  border-radius: 5px;
+}
+
+.item li:hover .subItem
+{
+  display: block;
+}
+

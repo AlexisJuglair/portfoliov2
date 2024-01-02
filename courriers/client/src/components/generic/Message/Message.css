@@ -1,0 +1,10 @@
+.message
+{
+  z-index: 1000;
+  border-radius: 50px;
+  position: absolute;
+  bottom: 10%;
+  height: 50px;
+  width: 90%;
+  left: 5%;
+}

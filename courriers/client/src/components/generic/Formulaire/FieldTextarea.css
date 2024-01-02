@@ -1,0 +1,29 @@
+.fieldTextarea
+{
+  display: block;
+  text-align: center;
+  margin: 10px;
+  padding: 0;
+}
+
+.fieldTextarea label
+{
+  display: block;
+  text-align: left;
+  width: 100%;
+}
+
+.fieldTextarea span
+{
+  color: #b71c1c;
+}
+
+.fieldTextarea textarea
+{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 5px;
+  resize: none;
+  font-family: Arial, Helvetica, sans-serif;
+}

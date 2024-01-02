@@ -1,0 +1,24 @@
+.modalTitle
+{
+  font-size: 16px;
+  color: white;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: middle;
+  font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.default
+{
+  background-color: #37474F;
+}
+
+/* .success
+{
+  background-color: #4caf50;
+}
+
+.error
+{
+  background-color: #b71c1c;
+} */

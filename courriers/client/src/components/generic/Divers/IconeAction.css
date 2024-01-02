@@ -1,0 +1,9 @@
+.actionLink, i
+{
+  color: black;
+}
+
+.actionLink:hover, i:hover
+{
+  color: #37474F;
+}

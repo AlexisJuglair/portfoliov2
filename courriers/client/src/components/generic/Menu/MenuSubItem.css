@@ -1,0 +1,11 @@
+.subLine
+{
+  padding: 5px 10px;
+  display: block;
+}
+
+.subLine:hover
+{
+  color: white;
+  background-color: #455A64
+}

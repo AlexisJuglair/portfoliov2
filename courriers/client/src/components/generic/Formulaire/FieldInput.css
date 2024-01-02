@@ -1,0 +1,35 @@
+.fieldInput
+{
+    display: block;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+    padding: 0;
+}
+
+.fieldInput label
+{
+    display: block;
+    text-align: left;
+    width: 100%;
+}
+
+.fieldInput span
+{
+    color: #b71c1c;
+}
+
+.fieldInput input[type=text],
+.fieldInput input[type=password],
+.fieldInput input[type=number],
+.fieldInput input[type=tel],
+.fieldInput input[type=email],
+.fieldInput input[type=date]
+{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+

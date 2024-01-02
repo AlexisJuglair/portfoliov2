@@ -1,0 +1,43 @@
+.App 
+{
+  text-align: center;
+  height: 100vh;
+  /* width: 100vw; */
+  background: center;
+  background-image: url("background.png");
+  background-color: #ccc;
+  background-size: cover;
+}
+
+.app *
+{
+  transition: all .25s;
+}
+
+footer
+{
+  height: 40px;
+  background-color: #37474F;
+  color: #ccc;
+  font-size: 15px;
+  bottom: 0;
+  line-height: 40px;
+  vertical-align: middle;
+  box-shadow: 0 5px 30px black, 0 2px 5px black;
+  font-family: 'Mochiy Pop P One', sans-serif;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+footer a
+{
+  text-decoration: none;
+  color: #ccc;
+}
+
+footer a:hover
+{
+  color: #fff;
+}

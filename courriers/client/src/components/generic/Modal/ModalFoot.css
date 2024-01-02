@@ -1,0 +1,13 @@
+.modalFoot
+{
+  font-family: 'Mochiy Pop P One', sans-serif;
+  font-size: 16px;
+  color: white;
+  height: 40px;
+  background-color: #37474F;
+  color: #ccc;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
